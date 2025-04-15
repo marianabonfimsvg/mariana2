@@ -73,7 +73,7 @@ section {
 }
 
 
-#Mariana {
+#Meus futuros planos {
     position: relative;
     padding-top: 5rem;
     margin-top: 3rem;
@@ -84,13 +84,20 @@ section {
     /* Ajuste o tamanho conforme necessário */
 }
 
-#Mariana .container {
+#Meus futuros planos .container {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     z-index: 1;
     /* Garante que o conteúdo fica acima das imagens do background */
+}
+
+h1 {
+    font-family: 'Lemon', serif;
+    font-size: 2.5em;
+    font-style: normal;
+    color: var(--laranja-claro);
 }
 
 
