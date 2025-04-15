@@ -79,7 +79,7 @@ section {
     margin-top: 3rem;
     margin-bottom: 3rem;
     background: url('./airplane.jpeg') top right no-repeat,
-        url('') bottom left no-repeat;
+        url('./suitcase.jpeg') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
