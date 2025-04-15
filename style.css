@@ -2,8 +2,8 @@
 
 :root {
     --verde-claro: #2aff35;
-    --alto-contraste-fundo: #000000;
-    --alto-contraste-texto: #ffffff;
+    --alto-contraste-texto: #a5849d;
+    --alto-contraste-fundo: #161616;
     --alto-contraste-link: #590f68;
 }
 
@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #1d1717;
+    background-image: url('./passagens-aereas-tailandia-capa2019-05-820x430.jpg');
 }
 
 
