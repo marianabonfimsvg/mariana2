@@ -8,8 +8,13 @@ root {
 }
 
 body {
-    font-size: 1rem;
-    font-family: 'fantasy';
+        font-size: 1rem;
+        font-family: 'fantasy';
+        display: flex;
+        justify-content: center; /* Centraliza o conteúdo na horizontal */
+        align-items: center; /* Centraliza o conteúdo na vertical */
+        min-height: 100vh; /* Garante que o corpo ocupe toda a altura da tela */
+        margin: 0; /* Remove margens */
 }
 
 header {
@@ -96,6 +101,7 @@ h1 {
     font-family: 'Lemon', serif;
     font-size: 2.5em;
     font-style: Poppins;
+    text-align: center;
     color: var(--vermelho-escuro);
 }
 
@@ -104,6 +110,7 @@ h2 {
     font-family: 'Lemon', serif;
     font-size: 2.5em;
     font-style: Poppins;
+    text-align: center;
     color: var(--vermelho-suave);
 }
 
