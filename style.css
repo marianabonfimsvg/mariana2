@@ -19,6 +19,9 @@ body {
 
 header {
     background-image: url('./img/passagens-aereas-tailandia-capa2019-05-820x430.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* adicione uma altura visível */
 }
 
 
