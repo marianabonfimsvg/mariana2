@@ -1,6 +1,6 @@
 
 
-:root {
+root {
     --verde-claro: #2aff35;
     --alto-contraste-texto: #a5849d;
     --alto-contraste-fundo: #161616;
@@ -28,20 +28,19 @@ section {
 }
 
 .inicio-fundo {
-    /* aula 3 */
     background-image: url('./img/passagens-aereas-tailandia-capa2019-05-820x430.jpg');
-    /* Substitua pelo caminho da sua imagem */
     background-size: cover;
-    background-position: right;
+    background-position: center;
     border-radius: 100px;
     width: 100%;
     height: 100%;
     padding: 0;
     margin: 0 auto;
-}
 
-/* posicionamento para a imagem à direita */
-.img-inicio {
+/* adicione isso para centralizar */ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     right: 0;
     top: 18rem;
