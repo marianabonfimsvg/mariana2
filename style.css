@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-image: url('./passagens-aereas-tailandia-capa2019-05-820x430.jpg');
+    background-image: url('./img/passagens-aereas-tailandia-capa2019-05-820x430.jpg');
 }
 
 
@@ -29,7 +29,7 @@ section {
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('./passagens-aereas-tailandia-capa2019-05-820x430.jpg');
+    background-image: url('./img/passagens-aereas-tailandia-capa2019-05-820x430.jpg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -78,8 +78,8 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('./airplane.jpeg') top right no-repeat,
-        url('./suitcase.jpeg') bottom left no-repeat;
+    background: url('./img/airplane.jpeg') top right no-repeat,
+        url('./img/suitcase.jpeg') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
@@ -114,12 +114,12 @@ h2 {
 }
 
 .fundo-galeria {
-    background: url('./airplane.jpeg') bottom right no-repeat;
+    background: url('./img/airplane.jpeg') bottom right no-repeat;
     background-size: 180px 180px;
 }
 
 #contato {
-    background-image: url('./OIP.jpeg');
+    background-image: url('./img/OIP.jpeg');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
